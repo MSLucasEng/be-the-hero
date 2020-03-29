@@ -1,0 +1,28 @@
+Instalando: Visual Studio code
+	    cinst nodejs-lts
+
+Criando package.json
+
+	powershell admin: (CMD admin é melhor)
+		Set-Location -Path C:\Windows
+		Set-Location -Path C:\Windows -PassThru
+		Set-Location -Path .. -PassThru
+		
+		Criar pasta backend
+		npm init -y
+                npm set registry http://registry.npmjs.org/  (Concerta o erro npm)
+		npm install express
+
+	visual studio code:
+		Abrir pasta e arquivo package.json
+		criar arquivo index.js
+		node index.js (Rodar cmd para executar o programa)
+	
+	powershell admin:
+		Set-Location -Path C:\Windows
+		Set-Location -Path C:\Windows -PassThru
+		Set-Location -Path .. -PassThru
+
+		npx create-react-app frontend (cria frontend)
+		cd frontend 
+		npm start
