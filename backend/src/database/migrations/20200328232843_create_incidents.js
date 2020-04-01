@@ -10,7 +10,7 @@ exports.up = function(knex) {
 
         table.foreign('ong_id').references('id').inTable('ong');
     });    
-  
+
 };
 
 exports.down = function(knex) {
